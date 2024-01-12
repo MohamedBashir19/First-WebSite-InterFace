@@ -1,0 +1,594 @@
+* {
+  text-decoration: none;
+  overflow-x: hidden;
+}
+.Hero_Section {
+  background-image: url(./background1.jpg);
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.navbar {
+  background-color: rgb(56, 55, 55);
+  padding-right: 15px;
+  padding-left: 15px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  overflow-y: hidden;
+  height: 58px;
+}
+.navdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo a {
+  font-size: 34px;
+  color: #fff;
+  font-family: 'Lemon';
+}
+.navdiv li {
+  list-style: none;
+  display: inline-block;
+}
+li img {
+  height: 30px;
+  width: 30px;
+  margin-right: 8px;
+}
+.search_bar {
+  border-radius: 30px;
+  padding: 20px;
+  position: absolute;
+  margin-left: 150px;
+}
+.search_bar button {
+  color: #fff;
+  background-color: darkgray;
+  height: 66.5px;
+  width: 125px;
+  cursor: pointer;
+}
+#sec_logo a {
+  font-size: 50px;
+  color: #fff;
+  font-weight: bold;
+  margin-left: 90px;
+  font-family: 'Lemon';
+}
+.sec_nav_bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 100px;
+}
+.sec_nav_bar li {
+  display: inline-flex;
+  list-style: none;
+  margin: 20px;
+}
+.sec_nav_bar a {
+  font-size: 20px;
+  color: #fff;
+}
+.sec_nav_bar button {
+  background-color: #198754;
+  padding: 10px;
+  height: 56px;
+  width: 170px;
+  color: #fff;
+  margin-top: -200px;
+  border-radius: 5px;
+}
+.sec_nav_bar button:hover {
+  background-color: #eee;
+  color: #198754;
+  cursor: pointer;
+}
+#h1_1 {
+  font-size: 60px;
+  color: #fff;
+  text-align: left;
+  margin-left: 170px;
+  width: 400px;
+  font-family: 'Headland One';
+}
+.left_side {
+  width: 50%;
+  padding: 20px;
+}
+.left_side hr {
+  color: #fff;
+  width: 130px;
+  margin-left: 170px;
+  height: 2px;
+  font-weight: bold;
+  background-color: #fff;
+}
+.left_side p {
+  color: #fff;
+  margin-left: 170px;
+  font-size: 30px;
+  width: 330px;
+  font-family: 'Nunito';
+}
+.left_side button {
+  height: 77px;
+  width: 250px;
+  margin-left: 170px;
+  cursor: pointer;
+  font-size: 20px;
+  background-color: #10c98f;
+  color: #ffffff;
+  font-weight: bold;
+}
+.left_side button:hover {
+  background-color: #198754;
+}
+body {
+  height: 100%;
+  margin: 0;
+}
+.screem_splitter {
+  display: flex;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+.right_side {
+  width: 50%;
+  padding: 20px;
+  position: absolute;
+  right: 0px;
+  top: 166px;
+  left: 63%;
+}
+.upper_card {
+  width: 350px;
+  height: 460px;
+  box-shadow: 0 4px 6px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 15px;
+  display: inline-block;
+}
+.upper_card h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #198754;
+  margin-left: 13px;
+  font-family: 'Headland One';
+}
+.upper_card hr {
+  color: #198754;
+  width: 130px;
+  margin-left: 106px;
+  height: 2px;
+  font-weight: bold;
+  background-color: #198754;
+}
+.upper_card p {
+  color: black;
+  margin-left: 70px;
+}
+.upper_card #f_l {
+  color: black;
+  font-weight: lighter;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+#first_select,
+#second_selection {
+  height: 56px;
+  width: 345px;
+  margin-bottom: 15px;
+  background-color: transparent;
+}
+.upper_card #you_h {
+  font-size: 10px;
+  margin-left: 0px;
+}
+.upper_card #apply_button {
+  background-color: #198754;
+  color: #fff;
+  height: 40px;
+  width: 330px;
+  margin-top: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.upper_card #apply_button:hover {
+  background-color: transparent;
+  color: #000000;
+}
+.second_screen {
+  margin-top: 150px;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.second_screen #second_header {
+  font-size: 40px;
+  text-align: center;
+  font-family:'Headland One';
+}
+.second_screen #sol_hr {
+  background-color: #198754;
+  color: #198754;
+  height: 2px;
+  width: 170px;
+}
+.second_screen #second_p {
+  color: gray;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Nunito';
+}
+.second_container {
+  display: flex;
+  justify-content: space-around;
+}
+.loan {
+  height: 500px;
+  width: 350px;
+}
+.loan #second_sc_logo {
+  height: 80px;
+  width: 80px;
+}
+.loan #second_h {
+  font-size: 25px;
+  color: #198754;
+}
+.loan #second_ahref {
+  color: #10c98f;
+  font-size: 30px;
+  cursor: pointer;
+}
+.loan #second_ahref:hover {
+  color: #198754;
+}
+.loan #second_screen_p {
+  font-size: 20px;
+  color: gray;
+  font-family: 'Nunito';
+}
+.third_screen {
+  background-color: #e4f1ed;
+  background-repeat: no-repeat;
+}
+.third_container {
+  display: flex;
+  height: 520px;
+  padding: 50px;
+}
+.third_left_side {
+  width: 50%;
+}
+.third_right_side {
+  width: 40%;
+}
+.third_left_side #happy_family {
+  width: 480px;
+  margin-left: 100px;
+}
+.third_left_side .third_box {
+  height: 200px;
+  width: 200px;
+  background-color: #10c98f;
+  position: absolute;
+  top: 1950px;
+  left: 510px;
+}
+#box_p {
+  font-size: 60px;
+  color: #fff;
+  text-align: center;
+  margin-top: 60px;
+  font-family: times "Times New Roman";
+}
+.third_right_side #third_header {
+  color: #0f4332;
+  margin: 12px;
+  font-size: 38px;
+  font-family: 'Headland One';
+}
+.third_right_side #third_p {
+  color: gray;
+  font-size: 20px;
+  font-family: 'Nunito';
+  margin-left: 14px;
+}
+.third_right_side #third_hr {
+  color: gray;
+  background-color: gray;
+  margin-left: 17px;
+  margin-right: 21px;
+}
+.third_right_side #third_ul {
+  color: #10c98f;
+  margin-left: -10px;
+  margin-bottom: 40px;
+}
+.third_right_side #third_ul li {
+  color: #0f4332;
+  font-size: 25px;
+}
+.third_right_side #third_button {
+  height: 65px;
+  width: 200px;
+  border: solid #10c98f;
+  margin-left: 18px;
+  color: #10c98f;
+  background-color: transparent;
+  cursor: pointer;
+}
+.third_right_side #third_button:hover {
+  background-color: #10c98f;
+  color: #e4f1ed;
+}
+.fourth_screen {
+  margin-bottom: 70px;
+}
+.fourth_screen h2 {
+  margin-top: 70px;
+  color: #0f4332;
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Headland One';
+}
+.fourth_screen hr {
+  width: 100px;
+  height: 2px;
+  color: #26be9f;
+  background-color: #26be9f;
+  text-align: center;
+  margin-top: -10px;
+}
+.fourth_screen pre {
+  text-align: center;
+  color: gray;
+  font-size: 15px;
+  margin-top: 20px;
+  font-family: 'Nunito';
+}
+.card_container {
+  display: flex;
+  margin-top: 50px;
+}
+.card {
+  width: 25%;
+  height: 350pxpx;
+  text-align: center;
+}
+.card img {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 40px;
+}
+.card a {
+  color: #0f4332;
+  font-size: 30px;
+  font: bold;
+}
+.card a:hover {
+  color: #10c98f;
+}
+.card p {
+  color: gray;
+  font-size: 20px;
+  margin-top: 30px;
+}
+.fifth_screen {
+  background-color: #e4f1ed;
+  display: flex;
+  justify-content: space-around;
+  height: 720px;
+}
+.fifth_right_side,
+.fifth_left_side {
+  width: 38%;
+  padding: 20px;
+  margin-top: 50px;
+}
+.fifth_right_side h2 {
+  color: #0f4332;
+  font-size: 40px;
+  margin-left: 28px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-family: 'Headland One';
+}
+.fifth_right_side p {
+  color: gray;
+  font-size: 20px;
+  margin-left: 30px;
+  font-family: 'Nunito';
+}
+.fifth_right_side hr {
+  color: gray;
+  background-color: gray;
+  margin-top: 50px;
+  width: 95%;
+  margin-left: 28px;
+  margin-bottom: 30px;
+}
+.fifth_right_side ul {
+  color: #26be9f;
+  margin-bottom: 20px;
+  margin-left: -17px;
+}
+.fifth_right_side li {
+  color: #0f4332;
+  font-size: 25px;
+  margin: 10px;
+}
+.fifth_right_side button {
+  background-color: transparent;
+  color: #10c98f;
+  border: solid #10c98f;
+  height: 65px;
+  width: 200px;
+  margin-top: 30px;
+  margin-left: 28px;
+  cursor: pointer;
+}
+.fifth_right_side button:hover {
+  color: #e4f1ed;
+  background-color: #10c98f;
+}
+.fifth_left_side img {
+  height: 550px;
+}
+.sixth_screen img {
+  width: 100%;
+}
+.seventh_screen {
+  width: 100%;
+  margin-bottom: 50px;
+}
+.seventh_screen h2 {
+  color: #0f4332;
+  font-size: 40px;
+  font: bold;
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Headland One';
+}
+.seventh_screen hr {
+  color: #10c98f;
+  background-color: #10c98f;
+  height: 2px;
+  width: 120px;
+  text-align: center;
+  margin-top: -10px;
+  margin-bottom: 40px;
+}
+.seventh_card_container {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10%;
+}
+.crd {
+  width: 30%;
+  padding: 10px;
+}
+.crd img {
+  width: 400px;
+}
+.crd p {
+  color: gray;
+  text-align: left;
+  font-size: 15px;
+  font-family: 'Nunito';
+}
+.crd a {
+  text-align: left;
+  color: #0f4332;
+  font-size: 25px;
+}
+.crd a:hover {
+  color: #10c98f;
+}
+.crd p {
+  color: gray;
+  font-size: 20px;
+}
+
+footer {
+  background-color: #e4f1ed;
+}
+.footer_container {
+  display: flex;
+  padding: 40px;
+  justify-content: center;
+  height: auto;
+}
+.first_footer {
+  width: 25%;
+  padding-top: 40px;
+}
+.first_footer a {
+  font-size: 40px;
+  font: bold;
+  color: #0f4332;
+  font-family: 'Lemon';
+}
+.first_footer p {
+  color: gray;
+  font-size: 22px;
+  margin-top: 40px;
+}
+.second_footer {
+  width: 18%;
+}
+.third_footer {
+  width: 18%;
+}
+.second_footer h3,
+.third_footer h3 {
+  color: #0f4332;
+  margin-left: 42px;
+  font-size: 24px;
+}
+.second_footer li,
+.third_footer li {
+  margin: 10px;
+  font-size: 20px;
+}
+.second_footer li a,
+.third_footer li a {
+  color: gray;
+}
+.second_footer li a:hover,
+.third_footer li a:hover {
+  color: #10c98f;
+  text-decoration: underline;
+}
+.fourth_footer {
+  width: 25%;
+}
+.fourth_footer h3 {
+  color: #0f4332;
+  font-size: 24px;
+  margin-top: 20px;
+}
+.fourth_footer p {
+  color: gray;
+  font-size: 22px;
+}
+.fourth_footer_container {
+  width: 370px;
+  max-width: 100%;
+  position: relative;
+  margin-top: 40px;
+}
+.fourth_footer input {
+  width: 100%;
+  height: 50px;
+  color: #5c6168;
+  background: none;
+  border: 3px solid #10c98f;
+}
+.fourth_footer_container button {
+  height: 100%;
+  aspect-ratio: 1;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border: 3px solid #10c98f;
+  background-color: #10c98f;
+  cursor: pointer;
+}
+.fourth_footer_container img {
+  width: 40px;
+  height: 40px;
+}
